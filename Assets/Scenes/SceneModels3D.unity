@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &15418150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,6 +278,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6ca02ff56426c3b4c9b17425907208fa, type: 3}
       propertyPath: m_Name
       value: Female
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ca02ff56426c3b4c9b17425907208fa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 6ca02ff56426c3b4c9b17425907208fa, type: 3}
       propertyPath: m_Controller
@@ -494,10 +498,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monster
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 77b23e8951b3d7a4ea8caf436ce29718, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 77b23e8951b3d7a4ea8caf436ce29718, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 16418cce85aec4b41a34fc9ba6d64737, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 77b23e8951b3d7a4ea8caf436ce29718, type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 77b23e8951b3d7a4ea8caf436ce29718, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 1
@@ -520,9 +532,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 1.1452575
-  m_Height: 3.3199658
+  m_Height: 3.0722356
   m_Direction: 1
-  m_Center: {x: 0.0062737465, y: 1.4204056, z: 0.044492006}
+  m_Center: {x: 0.0062737465, y: 1.5442708, z: 0.044492006}
 --- !u!54 &561477259
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -945,6 +957,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dde6397db3786f347ad979b0089e784c, type: 3}
       propertyPath: m_Name
       value: DevilBulldog
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dde6397db3786f347ad979b0089e784c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2161089660149307272, guid: dde6397db3786f347ad979b0089e784c, type: 3}
       propertyPath: m_Materials.Array.data[0]
